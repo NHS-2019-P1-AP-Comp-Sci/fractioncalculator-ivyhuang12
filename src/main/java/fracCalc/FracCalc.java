@@ -112,7 +112,6 @@ public class FracCalc {
     		return "1";
     	}
    
-    }
     
     public static String evaluate(String operator, String operand1, String operand2) {
     	//addition*/
