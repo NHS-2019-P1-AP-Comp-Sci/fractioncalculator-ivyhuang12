@@ -88,19 +88,19 @@ public class FracCalc {
     		
     }
     
-    /*public static String findDenom(String str) {
+    public static String findDenom(String str) {
     	if(str.contains("/")) {
     		return str.substring(str.indexOf("/")+1);
     	}else{
     		return "1";
     	}
-    	
+   
     }
     
-    public static String evaluate(String operator, String operand1, String operand2) {
+   // public static String evaluate(String operator, String operand1, String operand2) {
     	//addition
     	
-   }*/
+   //}
     	
     	
     	
