@@ -10,12 +10,18 @@ public class FracCalc {
     {
     	Scanner userInput = new Scanner(System.in);
     	System.out.print("Enter a fraction problem: ");
-    	String input = "input";
+    	String input = userInput.nextLine();
+    	
+    	System.out.println(produceAnswer(input));
+    	
+    }
+    	/*String input = "input";
+    	
     	
     while (!(input.equalsIgnoreCase("quit"))) {
     		input = userInput.nextLine();
     		System.out.println(produceAnswer(input));
-    		input = userInput.nextLine();
+    		input = userInput.nextLine();/*
     	 		
     }
     	userInput.close();
@@ -37,6 +43,8 @@ public class FracCalc {
     //
     // The function should return the result of the fraction after it has been calculated
     //      e.g. return ==> "1_1/4"
+     */
+     
     public static String produceAnswer(String input)
     {//does all of the work
         // TODO: Implement this function to produce the solution to the input
@@ -48,6 +56,15 @@ public class FracCalc {
     
     	//operand
     	
+    	
+    	Scanner s = new Scanner(input);
+    	String operand1 = s.next();
+    	String operator = s.next();
+    	String operand2 = s.next();
+    	
+    	
+    	return operand2;
+    	/*
     	String frac = input;
     	String operand1 = frac.substring(0, frac.indexOf(' '));
     	frac = frac.substring(frac.indexOf(' ') + 1);
@@ -97,10 +114,10 @@ public class FracCalc {
    
     }
     
-   // public static String evaluate(String operator, String operand1, String operand2) {
-    	//addition
+    public static String evaluate(String operator, String operand1, String operand2) {
+    	//addition*/
     	
-   //}
+   }
     	
     	
     	
